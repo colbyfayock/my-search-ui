@@ -1,0 +1,29 @@
+---
+
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/Container.astro';
+
+import { posts } from '../../public/posts.json';
+---
+<Layout title="My Blog">
+	<Container>
+		<h1 class="sr-only">Blog Posts</h1>
+		<ul>
+			{posts.map(post => {
+				return (
+					<li class="mb-12 last:mb-0">
+						<h2 class="text-3xl font-semibold mb-4">
+							<a class="hover:text-blue-500 hover:underline" href={post.url}>
+								{ post.title }
+							</a>
+						</h2>
+						<p class="mb-4">{ post.categories.join(', ') }</p>
+						<p class="text-slate-500">
+							{ new Date(post.date).toLocaleDateString() }
+						</p>
+					</li>
+				)
+			})}
+		</ul>
+	</Container>
+</Layout>
