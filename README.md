@@ -1,12 +1,12 @@
 # Detect Clicks & Key Presses in React
 
-Demo for tutorial [Easiest Way to Close a Dropdown on Outside Clicks In React](https://www.youtube.com/colbyfayock)
+Demo for tutorial [Easiest Way to Close a Dropdown on Outside Clicks In React](https://www.youtube.com/watch?v=M_HujIFsIb0)
 
-📝 Article: 
+📝 Article: https://spacejelly.dev/posts/how-to-detect-clicks-anywhere-on-a-page-in-react
 
-📺 YouTube: https://www.youtube.com/colbyfayock
+📺 YouTube: https://www.youtube.com/watch?v=M_HujIFsIb0
 
-🚀 Demo: 
+🚀 Demo: https://my-search-ui.vercel.app/
 
 ## More tutorials and walkthroughs
 
