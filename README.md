@@ -1,10 +1,10 @@
-# Astro Blog with Appwrite
+# Detect Clicks & Key Presses in React
 
-Demo for tutorial 
+Demo for tutorial [Easiest Way to Close a Dropdown on Outside Clicks In React](https://www.youtube.com/colbyfayock)
 
 📝 Article: 
 
-📺 YouTube: 
+📺 YouTube: https://www.youtube.com/colbyfayock
 
 🚀 Demo: 
 
